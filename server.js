@@ -4,6 +4,7 @@ const { errorHandler } = require("./middlewares/error-middleware");
 const connectMongoDB = require("./config/db");
 
 connectMongoDB();
+
 const port = process.env.PORT || 5000;
 const app = express();
 
